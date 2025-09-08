@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <!-- action="register.js" -->
+    <form action="/register">
+      <label for="name" placeholder="Satyam Sangal">Enter ur name (required):</label>
+      <input type="text" id="name" />
+      <br /><br />
+      <label for="email">Enter ur email </label>
+      <input type="text" id="email" />
+      <br /><br />
+      <label for="phone">Enter ur phone number</label>
+      <input type="number" id="phone" />
+      <br /><br />
+      <fieldset>
+        <head>
+          enter ur gender here
+        </head>
+        <br />
+        <label for="gen1">Male</label>
+        <input type="radio" id="gen1" />
+        <br />
+        <label for="gen2">Female</label>
+        <input type="radio" id="gen2" />
+        <br />
+        <label for="gen3">Others</label>
+        <input type="radio" id="gen3" />
+      </fieldset>
+      <label for="date">DOB</label>
+      <input type="date" />
+      <br />
+      <!-- branch sem -->
+      <br />
+      <label for="8">Branch</label>
+      <select name="random" id="8">
+        <br> <br><br>
+        <option value="CSE">CSE</option>
+        <option value="CSE-AIML">CSE-AIML</option>
+        <option value="CSE-DS">CSE-DS</option>
+        <option value="CS">CS</option>
+        <option value="IT">IT</option>
+      </select>
+      <br />
+
+      <label for="sem">Semester</label>
+      <input type="number" id="sem" />
+
+      <br /><br />
+
+      <label for="add">Address</label>
+      <textarea name="Addresss" id="add"></textarea>
+      <br><br>
+
+      <label for="fill">Choose file</label>
+      <input type="file">
+      <br><br>
+      <label for="sub">Submit</label>
+      <input type="submit">
+    </form>
+  </body>
+</html>
